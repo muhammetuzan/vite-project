@@ -12,6 +12,7 @@ function Login() {
   const [errors, setErrors] = useState({});
     // Validasyon kuralları eklendi
 
+
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
