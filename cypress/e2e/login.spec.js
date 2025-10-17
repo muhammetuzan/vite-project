@@ -1,3 +1,5 @@
+// Cypress testleri güncellendi - commit testi
+
 describe('Login Formu E2E Testi', () => {
     beforeEach(() => {
       cy.visit('http://localhost:5173/');
