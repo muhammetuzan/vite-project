@@ -1,3 +1,5 @@
+// Proje setup tamamlandı
+
 import { Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Success from './components/Success';
