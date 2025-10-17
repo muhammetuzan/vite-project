@@ -1,6 +1,7 @@
-// Login component hazırlandı
+
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+// Login bileşeni oluşturuldu
 
 function Login() {
   const navigate = useNavigate(); // ✅ Doğru yer: fonksiyonun İÇİNDE
